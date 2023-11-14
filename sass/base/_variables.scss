@@ -1,0 +1,14 @@
+// Colores //
+
+$colornavbar: #f8f9fa;
+$colorbg1: #ffffff;
+$colorbg2: #eae5df;
+$colorfont1: white;
+$colorfooter: #212529;
+
+@mixin misioncard {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $colorfont1;
+}

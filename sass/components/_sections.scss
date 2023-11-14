@@ -1,0 +1,79 @@
+.mision {
+  padding: 80px 0;
+}
+
+.bg-mision1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../img/m1.jpg);
+  @include misioncard;
+}
+
+.bg-mision2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/m2.jpg);
+  @include misioncard;
+}
+
+.bg-mision3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../img/m3.jpg);
+  @include misioncard;
+}
+
+.box-icons i {
+  font-size: 40px;
+}
+
+.box-icons h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.banner {
+  padding: 50px 0;
+  margin-bottom: 80px;
+  background-color: $colorbg2;
+  h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+}
+
+.cta {
+  margin-top: 50px;
+  h2 {
+    font-weight: 800;
+  }
+  p {
+    padding: 25px;
+  }
+}
+
+.cardmision {
+  transform: scale(1);
+  transition: all 2s;
+}
+.cardmision:hover {
+  transform: scale(1.1);
+}
+
+.centered-gallery {
+  margin-top: 80px;
+}
+
+.portfolio {
+  transform: scale(0.95);
+  transition: all 2s;
+}
+.portfolio:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: auto;
+  background-color: $colorfooter;
+  p {
+    color: $colorfont1;
+  }
+}

@@ -4,22 +4,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
-
-.btn {
-  transform: scale(1);
-  transition: all 2s;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-}
-
 @keyframes show {
   from {
     opacity: 0;
@@ -204,11 +188,12 @@ img {
 }
 /*components*/
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #114d4d;
 }
 .navbar a {
   font-weight: 600;
   font-size: 18px;
+  color: white;
 }
 
 .carousel-inner::before {
@@ -226,7 +211,12 @@ img {
   font-weight: 600;
   text-transform: uppercase;
 }
-.carousel-inner::before .carousel-item .carousel-caption h5 .carousel-caption p {
+.carousel-inner::before
+  .carousel-item
+  .carousel-caption
+  h5
+  .carousel-caption
+  p {
   margin: 10px auto;
 }
 
@@ -235,10 +225,6 @@ img {
 }
 .contact p {
   padding: 30px;
-}
-
-.nosotros {
-  background-color: #eae5df;
 }
 
 /* Servicios Index */
@@ -252,7 +238,6 @@ img {
 
 /*Servicios Page */
 .servicios {
-  background-color: #eae5df;
   height: auto;
 }
 .servicios h2 {
@@ -265,12 +250,31 @@ img {
   margin-bottom: 5px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #e0e4ce;
+}
+
+.btn {
+  background-color: #2d3839;
+  transform: scale(1);
+  transition: all 2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
 .mision {
-  padding: 80px 0;
+  padding: 60px 0px 0px 0px;
 }
 
 .bg-mision1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/m1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../img/m1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,7 +282,8 @@ img {
 }
 
 .bg-mision2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/m2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/m2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,11 +291,16 @@ img {
 }
 
 .bg-mision3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/m3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../img/m3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+
+.section-icons {
+  padding: 50px 0px 50px 0px;
 }
 
 .box-icons i {
@@ -305,7 +315,7 @@ img {
 .banner {
   padding: 50px 0;
   margin-bottom: 80px;
-  background-color: #eae5df;
+  background-color: #c0d1cd;
 }
 .banner h2 {
   font-size: 30px;
@@ -321,6 +331,10 @@ img {
 }
 .cta p {
   padding: 25px;
+}
+
+.card {
+  background-color: #c0d1cd;
 }
 
 .cardmision {
@@ -347,8 +361,8 @@ img {
 
 footer {
   margin-top: auto;
-  background-color: #212529;
+  background-color: #114d4d;
 }
 footer p {
   color: white;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

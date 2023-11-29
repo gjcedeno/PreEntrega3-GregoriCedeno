@@ -9,6 +9,10 @@
   .carousel-item {
     min-height: 400px;
 
+    .carousel-item img {
+      object-fit: cover;
+    }
+
     .carousel-caption h5 {
       font-weight: 600;
       text-transform: uppercase;
@@ -18,4 +22,19 @@
       }
     }
   }
+}
+
+.imgcarousel-1 {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.4)),
+    url(/img/portada1.jpg);
+}
+
+.imgcarousel-2 {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.4)),
+    url(/img/portada2.png);
+}
+
+.imgcarousel-3 {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.4)),
+    url(/img/portada3.jpg);
 }

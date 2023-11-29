@@ -46,7 +46,7 @@ img {
     height: 100vh;
   }
   .carousel-caption {
-    bottom: 350px;
+    bottom: 250px;
   }
   .carousel-caption h5 {
     font-size: 60px;
@@ -57,13 +57,7 @@ img {
     font-size: 22px;
   }
   .mision {
-    padding: 30px 0;
-  }
-  .service {
-    padding: 30px 0 0 0;
-  }
-  .banner {
-    margin-bottom: 30px;
+    margin-top: 30px;
   }
   .nosotros {
     height: 100vh;
@@ -207,6 +201,10 @@ img {
 .carousel-inner::before .carousel-item {
   min-height: 400px;
 }
+.carousel-inner::before .carousel-item .carousel-item img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
 .carousel-inner::before .carousel-item .carousel-caption h5 {
   font-weight: 600;
   text-transform: uppercase;
@@ -218,6 +216,21 @@ img {
   .carousel-caption
   p {
   margin: 10px auto;
+}
+
+.imgcarousel-1 {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.4)),
+    url(../img/portada1.jpg);
+}
+
+.imgcarousel-2 {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.4)),
+    url(../img/portada2.png);
+}
+
+.imgcarousel-3 {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.4)),
+    url(../img/portada3.jpg);
 }
 
 .contact {
@@ -268,10 +281,6 @@ body {
   transform: scale(1.1);
 }
 
-.mision {
-  padding: 60px 0px 0px 0px;
-}
-
 .bg-mision1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url(../img/m1.jpg);
@@ -299,10 +308,6 @@ body {
   color: white;
 }
 
-.section-icons {
-  padding: 50px 0px 50px 0px;
-}
-
 .box-icons i {
   font-size: 40px;
 }
@@ -323,9 +328,6 @@ body {
   margin-bottom: 30px;
 }
 
-.cta {
-  margin-top: 50px;
-}
 .cta h2 {
   font-weight: 800;
 }
